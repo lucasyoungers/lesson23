@@ -1,22 +1,22 @@
 <template>
-  <div class="user">
+  <div class="about">
     <user-header></user-header>
     <user-body></user-body>
-    <user-footer></user-footer>
+    <app-footer></app-footer>
   </div>
 </template>
 
 <script>
 import UserHeader from '@/components/UserHeader.vue'
 import UserBody from '@/components/UserBody.vue'
-import UserFooter from '@/components/UserFooter.vue'
+import AppFooter from '@/components/AppFooter.vue'
 
 export default {
-  name: user,
+  name: 'user',
   components: {
     UserHeader,
     UserBody,
-    UserFooter
+    AppFooter
   }
 }
 </script>
